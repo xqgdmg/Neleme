@@ -1,6 +1,6 @@
 # 总结
-* 1.点击商品详情显示的是 DetailActivity，利用主题android:theme="@style/NoTitleTranslucentTheme"，是他没有标题并且是透明背景。看起来像一个Dialog，类似的，应该也是可以用Dialog写成类似Activity，好处是不需要处理Activity的生命周期，轻便。
-* 2.DetailActivity类似Dialog的点击消失的效果，是点击+动画+finish。
+* 1.点击商品详情显示的是 DetailActivity，利用主题android:theme="@style/NoTitleTranslucentTheme"，使他没有标题并且是透明背景。看起来像一个Dialog，类似的，应该也是可以用Dialog写成类似Activity，好处是不需要处理Activity的生命周期，轻便。
+* 2.DetailActivity类似Dialog的点击消失的效果：点击+动画+finish。
 * 3.BottomSheetBehavior是使用，可参考 https://www.jianshu.com/p/1273effa2c55
 
 # Android 仿饿了么点餐页面
